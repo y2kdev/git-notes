@@ -1,19 +1,10 @@
 {\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
-{\info
-{\title GIT SHORTCUTS / WORKFLOW OVERVIEW}
-{\creatim\yr2010\mo3\dy14\hr1\min17\sec29\timesinceref290240249}}\paperw24000\paperh12740\vieww24000\viewh12740\viewkind0
-\pard\tqr\tx700\tx860\li480\fi-480\ql\qnatural\pardirnatural
-
-\f0\b\fs24 \cf0 	Date:	
-\b0 March 14, 2010 1:17 AM\
-
-\b 	Topic:	
-\b0 GIT SHORTCUTS / WORKFLOW OVERVIEW\
-\
+\paperw24000\paperh12740\vieww24000\viewh12300\viewkind0
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
-\cf0 Git is divided into 
+
+\f0\fs24 \cf0 Git is divided into 
 \i porcelain
 \i0  
 \i commands
@@ -118,9 +109,8 @@ set uifont \{"Monaco Bold" 12\}\
 \fs46 \cf0 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 \cf0 git house cleaning: (chain of commands)\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b0\fs24 \cf0 \
+\b0\fs24 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b \cf0 #Check for corrupt or unreachable files
@@ -232,12 +222,10 @@ git log master\
 \b0 git stash clear\
 \
 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 git k: (REPO browser from command line)\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\b\fs46 git k: (REPO browser from command line)\
 
-\b0\fs24 \cf0 \
+\b0\fs24 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b \cf0 #Run gitk \
@@ -252,9 +240,8 @@ git log master\
 \cf0 gitk -a &\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 \cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 git add: (Setting files up for staging aka: marking files as commit worthy)\
+\b\fs46 git add: (Setting files up for staging aka: marking files as commit worthy)\
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
@@ -284,9 +271,8 @@ git log master\
 
 \b0 \cf0 git add -i\
 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 git commit: (marking revisions)\
+\b\fs46 git commit: (marking revisions)\
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
@@ -313,9 +299,8 @@ git commit -m -a \'93comment\'94\
 \
 \
 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 git checkout: \
+\b\fs46 git checkout: \
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
@@ -340,9 +325,8 @@ git commit -m -a \'93comment\'94\
 #Revert all work in the local work space to the last commit\
 
 \b0 git checkout -f\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 \
+\b\fs46 \
 git branch: \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
@@ -375,9 +359,8 @@ git branch: \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b0 \cf0 git branch -D branch1\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 \
+\b\fs46 \
 git tag: \
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
@@ -411,9 +394,8 @@ git tag: \
 
 \b0 \cf0 git show v1.4
 \fs46 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b \cf0 \
+\b \
 git merge: \
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
@@ -422,9 +404,8 @@ git merge: \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b0 \cf0 git merge experiment\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\i \cf0 *see git mergetool
+\i *see git mergetool
 \i0\b\fs46 \
 \
 git diff: \
@@ -454,9 +435,8 @@ git diff: \
 
 \b0 \cf0 git diff master featurebranch\
 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 \
+\b\fs46 \
 git rebase: 
 \b0\fs24 \
 \
@@ -492,12 +472,10 @@ git revert:
 git bisect & git archive: \
 \
 git fetch: \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b0\fs24 \cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\b0\fs24 \
 
-\b\fs46 \cf0 git pull: \
+\b\fs46 git pull: \
 \
 git push: \
 \
@@ -547,12 +525,10 @@ git whatchanged: \
 \b\fs46 \
 
 \b0\fs24 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b\fs46 \cf0 git mergetool:\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\b\fs46 git mergetool:\
 
-\b0\fs24 \cf0 \
+\b0\fs24 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b \cf0 #allows you to resolve issues in the default merge tool you have setup (opendiff, kdiff3, etc.)
@@ -563,9 +539,8 @@ git mergetool\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
 \b\fs46 \cf0 hooks example:\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
 
-\b0\fs24 \cf0 \
+\b0\fs24 \
 #!/bin/sh\
 #\
 # An example hook script that is called after a successful\
